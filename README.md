@@ -1,8 +1,8 @@
 # Optimization Algorithms Comparison
 
-This project aims to compare and analyze the convergence curves of different heuristic algorithms, including Genetic Algorithm (GA), Cuckoo Search Grey Wolf Optimization (CGWO), Particle Swarm Optimization (PSO), and Antlion Optimization Algorithm (AOA). The implementation is done using MATLAB.
+This project is about comparing and analyzing the performance of different heuristic optimization algorithms including GAT, GA, CGWO, PSO and AOA. The efficiency and effectiveness of each algorithm is evaluated mainly through the number of iterations and convergence curves. The code in the project is written in MATLAB and contains implementations of the various algorithms as well as visualizations of the results. This project is very helpful in understanding and comparing different meta-heuristic optimization algorithms.
 
-本项目旨在比较和分析不同启发式算法（包括遗传算法GA、杜鹃搜索灰狼优化CGWO、粒子群优化PSO和蚁狮优化算法AOA）的收敛曲线，并使用MATLAB进行实现。
+这个项目是关于比较和分析不同启发式优化算法（包括 GAT、GA、CGWO、PSO 和 AOA）的性能。主要通过迭代次数和收敛曲线来评估每种算法的效率和效果。项目中的代码使用 MATLAB 编写，包含了各种算法的实现以及结果的可视化。这个项目对于理解和比较不同的元启发式优化算法非常有帮助。
 
 ## Introduction
 
@@ -11,13 +11,16 @@ In this project, we evaluate the performance of various optimization algorithms 
 在本项目中，我们通过分析各个优化算法的收敛曲线来评估其性能。收敛曲线表示目标函数值随迭代次数的变化，从而提供了关于优化过程和不同算法效果的洞察。
 
 The algorithms compared in this project are:
+
+- Simulated Annealing Improved Genetic Algorithm(GAT)
 - Genetic Algorithm (GA)
-- Cuckoo Search Grey Wolf Optimization (CGWO)
+- Chaotic Grey Wolf Optimization (CGWO)
 - Particle Swarm Optimization (PSO)
-- Antlion Optimization Algorithm (AOA)
+- Archimedes optimization algorithm (AOA)
 
 本项目中比较的算法有：
 
+- 模拟退火改进遗传算法(GAT)
 - 遗传算法（GA）
 - 改进收敛因子和比例权重的灰狼优化算法（CGWO）
 - 粒子群优化算法（PSO）
@@ -30,15 +33,19 @@ The main code for this project is written in MATLAB and can be found in the file
 本项目的主要代码使用MATLAB编写，可以在 "main.m" 文件中找到。以下是代码结构的简要说明：
 
 1. Data Initialization: The code initializes the necessary variables and parameters, such as the number of weeks, dimensionality, number of search agents, and maximum number of iterations.
+
    数据初始化：代码初始化必要的变量和参数，如周数、维度、搜索代理数量和最大迭代次数。
 
 2. Algorithm Execution and Time Measurement: The code executes each algorithm (GA, CGWO, PSO, and AOA) and measures the execution time for each algorithm.
+
    算法执行和时间测量：代码执行每个算法（GA、CGWO、PSO和AOA）并测量每个算法的执行时间。
 
 3. Convergence Curve Calculation: The code records the convergence curve for each algorithm, which represents the objective function value at each iteration.
+
    收敛曲线计算：代码记录每个算法的收敛曲线，表示每次迭代的目标函数值。
    
 4. Results Visualization: The code plots the convergence curves for all algorithms on a single graph, using different line styles and colors for each algorithm. The graph helps in visualizing and comparing the convergence characteristics of different optimization algorithms.
+
    结果可视化：代码将所有算法的收敛曲线绘制在一个图中，使用不同的线型和颜色来区分每个算法。该图有助于可视化和比较不同优化算法的收敛特性。
 
 ## Usage
@@ -46,15 +53,25 @@ The main code for this project is written in MATLAB and can be found in the file
 To run the code and generate the convergence curves, follow these steps:
 按照以下步骤运行代码并生成收敛曲线：
 
-1. Make sure you have MATLAB installed on your system.确保系统上安装了MATLAB。
+1. Make sure you have MATLAB installed on your system.
+  
+   确保系统上安装了MATLAB。
 
-2. Clone the GitHub repository: [https://github.com/Dramwig/Optimization-Algorithms-Comparison.git]克隆GitHub仓库：[https://github.com/Dramwig/Optimization-Algorithms-Comparison.git]
+2. Clone the GitHub repository: https://github.com/Dramwig/Optimization-Algorithms-Comparison.git
+  
+   克隆GitHub仓库：[https://github.com/Dramwig/Optimization-Algorithms-Comparison.git]
 
-3. Open MATLAB and navigate to the project directory.打开MATLAB，导航到项目目录。
+3. Open MATLAB and navigate to the project directory.
+  
+   打开MATLAB，导航到项目目录。
 
-4. Run the "main.m" script.运行 "main.m" 脚本。
+4. Run the "main.m" script.
 
-5. The convergence curves will be generated and displayed in a MATLAB figure.收敛曲线将在MATLAB图形界面中生成和显示。
+   运行 "main.m" 脚本。
+
+5. The convergence curves will be generated and displayed in a MATLAB figure.
+  
+   收敛曲线将在MATLAB图形界面中生成和显示。
 
 ## Results
 
