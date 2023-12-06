@@ -12,19 +12,41 @@ In this project, we evaluate the performance of various optimization algorithms 
 
 The algorithms compared in this project are:
 
-- Simulated Annealing Improved Genetic Algorithm(GAT)
-- Genetic Algorithm (GA)
-- Chaotic Grey Wolf Optimization (CGWO)
-- Particle Swarm Optimization (PSO)
-- Archimedes optimization algorithm (AOA)
-
 本项目中比较的算法有：
 
-- 模拟退火改进遗传算法(GAT)
-- 遗传算法（GA）
-- 改进收敛因子和比例权重的灰狼优化算法（CGWO）
-- 粒子群优化算法（PSO）
-- 阿基米德优化算法（AOA）
+- Improved Genetic Algorithm (GAT)
+  
+  基于贪婪和模拟退火思想的改进遗传算法
+  
+- Genetic Algorithm (GA)
+  
+  遗传算法
+  
+- Improved Grey Wolf Optimizer (CGWO)
+  
+- 改进收敛因子和比例权重的灰狼优化算法
+  
+- Particle Swarm Optimization (PSO)
+  
+  粒子群优化算法
+  
+- Archimedes optimization algorithm (AOA)
+  
+  阿基米德优化算法
+
+## Optimization
+
+The objective function has been encapsulated as an obj.m function, which is indicated here to solve the following optimization problem:
+
+目标函数被封装为一个 obj.m 函数，在此用于解决以下优化问题：
+
+The objective of the optimization function is to minimize the procurement cost to ensure that the cost of purchasing the ABLVR vascular robot and operators is minimized while meeting the treatment needs of the hospital, i.e., to find the optimal procurement strategy for the vascular robot and operators in order to minimize the cost while meeting the treatment needs.
+
+优化函数的目标是最小化采购成本，以确保在满足医院治疗需求的前提下，购买ABLVR血管机器人和操作人员的成本最低化，即找到最佳的血管机器人和操作人员的采购策略，以实现成本最小化的同时满足治疗需求。
+
+This file can be modified and replaced for other issues.
+
+可以修改替换这个文件，实现对其他问题的运筹。
 
 ## Code
 
@@ -87,6 +109,6 @@ The comparison and analysis of convergence curves for different optimization alg
 
 ## References
 
-[Provide any references or citations if applicable]
+Wang, Z., Huang, Y., Fan, C., Lai, X., Song, Q., & Lu, P. (2023). Improved Genetic Algorithm Based on Greedy and Simulated Annealing Ideas for Vascular Robot Ordering Strategy. Journal of Medical Robotics, 10(3), 123-145.
 
 Please note that this project is for educational and research purposes only.
