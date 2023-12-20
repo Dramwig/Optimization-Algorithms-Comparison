@@ -14,11 +14,25 @@ The algorithms compared in this project are:
 
 本项目中比较的算法有：
 
-- Improved Genetic Algorithm (GAT) 基于贪婪和模拟退火思想的改进遗传算法
-- Genetic Algorithm (GA) 遗传算法
-- Improved Grey Wolf Optimizer (CGWO) 改进收敛因子和比例权重的灰狼优化算法
-- Particle Swarm Optimization (PSO) 粒子群优化算法
-- Archimedes optimization algorithm (AOA) 阿基米德优化算法
+- Improved Genetic Algorithm (GAT)
+  
+  基于贪婪和模拟退火思想的改进遗传算法
+  
+- Genetic Algorithm (GA)
+  
+  遗传算法
+  
+- Improved Grey Wolf Optimizer (CGWO)
+  
+- 改进收敛因子和比例权重的灰狼优化算法
+  
+- Particle Swarm Optimization (PSO)
+  
+  粒子群优化算法
+  
+- Archimedes optimization algorithm (AOA)
+  
+  阿基米德优化算法
 
 ## Optimization
 
