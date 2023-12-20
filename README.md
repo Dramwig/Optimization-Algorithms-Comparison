@@ -81,7 +81,7 @@ To run the code and generate the convergence curves, follow these steps:
 
 2. Clone the GitHub repository: https://github.com/Dramwig/Optimization-Algorithms-Comparison.git
   
-   克隆GitHub仓库：[https://github.com/Dramwig/Optimization-Algorithms-Comparison.git]
+   克隆GitHub仓库：https://github.com/Dramwig/Optimization-Algorithms-Comparison.git
 
 3. Open MATLAB and navigate to the project directory.
   
