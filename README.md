@@ -24,7 +24,7 @@ The algorithms compared in this project are:
   
 - Improved Grey Wolf Optimizer (CGWO)
   
-- 改进收敛因子和比例权重的灰狼优化算法
+  改进收敛因子和比例权重的灰狼优化算法
   
 - Particle Swarm Optimization (PSO)
   
